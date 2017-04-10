@@ -9,7 +9,6 @@ var ImageView = Backbone.View.extend({
   },
 
   render: function(){
-    console.log(this.model, "model");
     var imageUrl = (this.model) ? _.sample(this.model.toJSON().images) : this.defaults.url;
     $(".carousel").prepend(this.template({url: imageUrl}));
   }

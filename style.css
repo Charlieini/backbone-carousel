@@ -1,0 +1,19 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  width: 400px;
+  margin: auto
+}
+
+img {
+  display: none;
+  width: 180px;
+  height: 180px;
+  position: absolute
+}
+
+.buttons {
+  margin-top: auto;
+}
